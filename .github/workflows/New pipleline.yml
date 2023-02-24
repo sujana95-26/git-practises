@@ -41,4 +41,4 @@ jobs:
         
       #Run scripts
       - name: run a bash script
-        run: script.sh
+        run: ./script.sh
