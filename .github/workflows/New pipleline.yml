@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      #List current directory contents
+      - name: List current directory contents
+        run: ls -al
+        
